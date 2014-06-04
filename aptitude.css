@@ -16,14 +16,14 @@
 	width: 100%;
 }
 
-div#main{
+#main{
 	display:block;
 	background-image:url('image.jpg');
 	width:100%;
 	position: relative;
 }
 
-div#move{
+#move{
 	margin-top: -36px;
 }
 
