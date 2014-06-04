@@ -1,0 +1,48 @@
+#last{
+	width:15%;
+}
+
+#mid{
+	width:70%;
+}
+
+#next{
+	width:15%;
+}
+
+#topbar{
+	position: fixed;
+	z-index:2;
+	width: 100%;
+}
+
+#img{
+	width: 100% !important;
+}
+
+div#main{
+	display:block;
+	background-image:url('image.jpg');
+	width:100%;
+	position: relative;
+}
+
+div#move{
+	margin-top: -36px;
+}
+
+.down{
+	opacity: 0.8;
+}
+
+.top{
+	opacity: 0.2;
+}
+
+.text{
+	height:480px;
+}
+
+
+
+
