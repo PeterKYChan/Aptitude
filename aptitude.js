@@ -3,7 +3,7 @@ $(document).ready(function($) {
 	var h=$(window).height();
 	$("#main").css("height", w);
 	$("#main").css("background-size", w);
-	$("#move").css("height", h);
+	$(".text").css("height", h);
 	var controller = new ScrollMagic();
 
 	var move = new ScrollScene({duration: 200})
