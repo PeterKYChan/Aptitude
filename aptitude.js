@@ -14,7 +14,7 @@ $(document).ready(function($) {
 		.setTween(TweenMax.to(".down", 1, {alpha:1, ease: Linear.easeNone}))
 		.addTo(controller);
 
-	var move3 = new ScrollScene({duration: 400})
-		.setTween(TweenMax.to("#main", 0.5, {top:100 , ease: Linear.easeNone}))
+	var move3 = new ScrollScene({duration: h})
+		.setTween(TweenMax.to("#main", 0.5, {top:h/2 , ease: Linear.easeNone}))
 		.addTo(controller);
 });
