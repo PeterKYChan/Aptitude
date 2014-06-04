@@ -16,10 +16,6 @@
 	width: 100%;
 }
 
-#img{
-	width: 100% !important;
-}
-
 div#main{
 	display:block;
 	background-image:url('image.jpg');
